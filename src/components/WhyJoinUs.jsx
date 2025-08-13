@@ -33,15 +33,11 @@ const WhyJoinUs = () => {
         </h2>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-8 place-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 place-items-center ">
           {benefits.map((benefit, index) => (
             <div
               key={index}
-              className={`bg-[#fa57a6] text-white rounded-2xl hover:shadow-md transition-all duration-300 ${
-                benefits.length % 2 !== 0 && index === benefits.length - 1
-                  ? "md:col-span-3 lg:col-span-1 md:mx-auto"
-                  : ""
-              }`}
+              className="bg-[#fa57a6]  text-white rounded-2xl hover:shadow-md transition-all duration-300"
             >
               <img
                 src={benefit.img}
@@ -49,7 +45,7 @@ const WhyJoinUs = () => {
                 className="rounded-tl-2xl rounded-tr-2xl h-56 w-full object-cover"
               />
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-4">{benefit.title}</h3>
+                <h3 className="text-xl font-semibold  mb-4">{benefit.title}</h3>
                 <p className="text-gray-200">{benefit.description}</p>
               </div>
             </div>

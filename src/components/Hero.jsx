@@ -11,7 +11,7 @@ const Hero = () => {
 
         {/* Main heading */}
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-          Empowering Tech Professionals & Digital Creators
+          Empowering Tech Professionals
           <br />
           <h1 className="text-[#fa57a6]">To Lead, Connect and Grow</h1>
         </h2>

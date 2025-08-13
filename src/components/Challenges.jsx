@@ -248,7 +248,7 @@ const Challenges = () => {
         </div>
 
         <div className="p-6 mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2  gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3  gap-6">
             {tabsData[activeTab].items.map((item) => (
               <ChallengeCard key={`${activeTab}-${item.id}`} item={item} />
             ))}
