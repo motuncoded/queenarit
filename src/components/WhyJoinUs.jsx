@@ -33,7 +33,7 @@ const WhyJoinUs = () => {
         </h2>
 
         {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-8 place-items-center ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 place-items-center ">
           {benefits.map((benefit, index) => (
             <div
               key={index}
